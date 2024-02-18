@@ -71,9 +71,9 @@ jobs:
 
     - name: Load custom configuration
       run:  cd ardupilot
-      git submodule update --init --recursive
-      ./waf configure --board fmuv3
-      ./waf copter
+#      git submodule update --init --recursive
+#      ./waf configure --board fmuv3
+#      ./waf copter
 
 
 
